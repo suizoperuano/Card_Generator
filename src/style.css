@@ -1,13 +1,13 @@
 body {
-  background-color: green;
+  background-image: url(assets/img/poker_texture.jpg);
 }
 .card {
   background-color: white;
   width: 309px;
   height: 420px;
-  border-radius: 40px;
+  border-radius: 30px;
   position: absolute;
-  top: 50%;
+  top: 400px;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 10px 10px 10px #000000;
