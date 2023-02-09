@@ -3,27 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random Card Generator</title>
+    <link href="src/style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <script
+      src="https://kit.fontawesome.com/e89fb71851.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello André!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div class="card">
+      <h1 class="symbol-top"><i class="fa-solid fa-globe"></i></h1>
+      <h1 class="card-number">5</h1>
+      <h1 class="symbol-bottom"><i class="fa-solid fa-toilet-paper"></i></h1>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
+
+<!-- 
+<i class="fa-solid fa-globe"></i>
+<i class="fa-solid fa-bed"></i>
+<i class="fa-solid fa-martini-glass-citrus"></i>
+<i class="fa-solid fa-toilet-paper"></i>
+
+--->
