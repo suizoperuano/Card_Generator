@@ -1,5 +1,6 @@
 body {
   background-image: url(assets/img/poker_texture.jpg);
+  background-size: cover;
 }
 .card {
   background-color: white;
