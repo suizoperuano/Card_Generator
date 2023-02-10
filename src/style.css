@@ -1,6 +1,10 @@
 body {
-  background-image: url(assets/img/poker_texture.jpg);
-  background-size: cover;
+  background-color: rgb(24, 158, 57);
+  text-align: center;
+}
+p {
+  font-weight: bold;
+  font-size: larger;
 }
 .card {
   background-color: white;
@@ -8,21 +12,21 @@ body {
   height: 420px;
   border-radius: 30px;
   position: absolute;
-  top: 400px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 10px 10px 10px #000000;
+  transform: translate(-50%, 0%);
+  box-shadow: 10px 10px 20px #000000;
 }
+
 .symbol-top {
   margin-left: 20px;
-  font-size: 110px;
+  font-size: 100px;
   position: absolute;
   top: -70px;
 }
 .symbol-bottom {
   position: absolute;
   margin-right: 20px;
-  font-size: 110px;
+  font-size: 100px;
   right: 0px;
   bottom: -70px;
   transform: rotate(180deg);
@@ -33,4 +37,9 @@ body {
   left: 50%;
   transform: translate(-50%, -120%);
   font-size: 80px;
+}
+.drawCards {
+  margin-top: 460px;
+  max-width: 80%;
+  margin-left: 10%;
 }
