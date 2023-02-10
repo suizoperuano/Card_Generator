@@ -22,6 +22,7 @@ p {
   font-size: 100px;
   position: absolute;
   top: -70px;
+  user-select: none;
 }
 .symbol-bottom {
   position: absolute;
@@ -30,6 +31,7 @@ p {
   right: 0px;
   bottom: -70px;
   transform: rotate(180deg);
+  user-select: none;
 }
 .card-number {
   position: absolute;
@@ -37,6 +39,7 @@ p {
   left: 50%;
   transform: translate(-50%, -120%);
   font-size: 80px;
+  user-select: none;
 }
 .drawCards {
   margin-top: 460px;
