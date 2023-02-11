@@ -1,5 +1,6 @@
 window.onload = function() {
-  drawCard();
+  let drawnCardsHTML = document.querySelector(".drawCards");
+  drawnCardsHTML.innerHTML = "Drawn cards: ";
 };
 
 let drawCard = () => {
@@ -46,19 +47,22 @@ let drawCard = () => {
   let bottomSymbolHTML = document.querySelector(".symbol-bottom");
   let cardNumberHTML = document.querySelector(".card-number");
   let drawnCardsHTML = document.querySelector(".drawCards");
+  let cardHTML = document.querySelector(".card");
 
-  //conditioning the colors
+  //conditioning the colors and card back
   let symbolColor = "black";
+  let cardColor = "white";
 
   if (suit === "♡" || suit === "♢") {
     symbolColor = "red";
   }
-
   //applying to html
   cardNumberHTML.innerHTML = cardNumber;
   topSymbolHTML.innerHTML = suit;
   bottomSymbolHTML.innerHTML = suit;
   topSymbolHTML.style.color = symbolColor;
   bottomSymbolHTML.style.color = symbolColor;
+  cardNumberHTML.style.color = symbolColor;
   drawnCardsHTML.innerHTML += ` ${cardNumber}${suit} `;
+  cardHTML.style.backgroundColor = cardColor;
 };
